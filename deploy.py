@@ -11,7 +11,7 @@ def start(message):
     markup_inline = types.InlineKeyboardMarkup()
     item_more = types.InlineKeyboardButton(text = 'Узнать больше', callback_data= 'more')
     item_wa = types.InlineKeyboardButton(text = 'Зарегистрироваться через WA', 
-        url = 'https://wa.me/+996556280688')
+        url = 'https://wa.me/+996707030570')
     markup_inline.add(item_more, item_wa)
     bot.send_message(message.chat.id, 'Как тебя зовут?',
         reply_markup=markup_inline
